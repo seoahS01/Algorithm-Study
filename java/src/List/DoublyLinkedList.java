@@ -42,7 +42,4 @@ public class DoublyLinkedList {
         linkedList.set(1, "g");
 
     }
-
-
-
 }
