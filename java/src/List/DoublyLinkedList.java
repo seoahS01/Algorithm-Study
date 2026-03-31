@@ -8,7 +8,7 @@ public class DoublyLinkedList {
         //선언
         LinkedList<String> linkedList = new LinkedList<>();
 
-        //============삽입==============
+        //============삽입(add)==============
         /*
         add와 offer 모두 사용 가능
         add: 실패할 경우 에러 발생
@@ -22,7 +22,7 @@ public class DoublyLinkedList {
         linkedList.addFirst("a");
         linkedList.addLast("b");
 
-        //============제거==============
+        //============제거(remove)==============
         //remove 시간복잡도: O(n)
         //removeLast, removeFirst 시간복잡도: O(1)
 
@@ -30,7 +30,7 @@ public class DoublyLinkedList {
         linkedList.removeFirst();
         linkedList.removeLast();
 
-        //============조회==============
+        //============조회(get)==============
         //get 시간복잡도: O(n)
         //getLast, getFirst 시간복잡도: O(1)
 
@@ -38,7 +38,7 @@ public class DoublyLinkedList {
         linkedList.getFirst();
         linkedList.getLast();
 
-        //============변경==============
+        //============변경(set)==============
         linkedList.set(1, "g");
 
     }
